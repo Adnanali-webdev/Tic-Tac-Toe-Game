@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <!--Font Family Link-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap" rel="stylesheet"> 
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="game-container">
+        <div class="gameInfo">
+            <h1>Welcome to Tic Tac MyTicTacToe</h1>
+            <div class="gameInfo-details">
+                <spna class="info" >Turn for X</spna>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="line"></div>
+            <div class="box bt bl"></div>
+            <div class="box bt"></div>
+            <div class="box bt br"></div>
+            <div class="box bl"></div>
+            <div class="box"></div>
+            <div class="box br"></div>
+            <div class="box bb bl"></div>
+            <div class="box bb"></div>
+            <div class="box bb br"></div>
+        </div>
+    </div>
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <h2 id="winMessage"></h2>
+            <button id="playAgain">Play Again</button>
+        </div>
+
+    </div>
+  <script src="script.js"></script>  
+</body>
+</html>
